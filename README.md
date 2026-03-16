@@ -30,9 +30,9 @@ To use the package in a cloudflare worker app, you must create [module aliases]
 # ...
 
 [alias]
-"net" = "@jchoi2x/cf-mongodb-polyfills/net"
-"dns" = "@jchoi2x/cf-mongodb-polyfills/dns"
-"tls" = "@jchoi2x/cf-mongodb-polyfills/tls"
+"net" = "cf-mongodb-polyfills/net"
+"dns" = "cf-mongodb-polyfills/dns"
+"tls" = "cf-mongodb-polyfills/tls"
 ```
 
 
